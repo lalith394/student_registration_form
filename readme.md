@@ -3,12 +3,12 @@
 A simple and responsive student registration form built using HTML, CSS, and JavaScript. This project is designed to collect user inputs with real-time validation and a clean, modern user interface.
 
 ## 📁 Folder Structure
-student-registration-form/
-│
-├── index.html # Main HTML file
-└── utils/
-├── style.css # CSS styles for layout and design
-└── script.js # JavaScript for validation and interactivity
+- student-registration-form/
+- │
+- ├── index.html # Main HTML file
+- └── utils/
+- ├── style.css # CSS styles for layout and design
+- └── script.js # JavaScript for validation and interactivity
 
 ## 🚀 Features
 
