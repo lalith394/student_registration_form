@@ -4,7 +4,6 @@ A simple and responsive student registration form built using HTML, CSS, and Jav
 
 ## 📁 Folder Structure
 - student-registration-form/
-- │
 - ├── index.html # Main HTML file
 - └── utils/
 - ├── style.css # CSS styles for layout and design
