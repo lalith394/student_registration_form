@@ -1,0 +1,77 @@
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Student Admission Form</title> 
+    <link rel="stylesheet" href="utils/style.css">
+</head> 
+<body> 
+ 
+    <div class="form-container"> 
+        <h2 class="form-title">Student Admission Form</h2> 
+ 
+        <form id="admissionForm"> 
+            <!-- Full Name Input --> 
+            <div> 
+                <label for="fullName">Full Name</label> 
+                <input type="text" id="fullName" class="form-input" 
+placeholder="John Doe"> 
+                <p id="fullNameError" class="error-message"></p> 
+            </div> 
+            <!-- Email Input --> 
+            <div> 
+                <label for="email">Email Address</label> 
+                <input type="email" id="email" class="form-input" 
+placeholder="john.doe@example.com"> 
+                <p id="emailError" class="error-message"></p> 
+            </div> 
+ 
+            <!-- Date of Birth Input --> 
+            <div> 
+ <label for="dateOfBirth">Date of Birth</label> 
+                <input type="date" id="dateOfBirth" class="form-input"> 
+                <p id="dateOfBirthError" class="error-message"></p> 
+            </div> 
+ 
+            <!-- Course Selection --> 
+            <div> 
+                <label for="course">Select Course</label> 
+                <select id="course" class="form-select"> 
+                    <option value="">-- Please Select --</option> 
+                    <option value="computer_science">Computer Science</option> 
+                    <option value="business_administration">Business 
+Administration</option> 
+                    <option value="electrical_engineering">Electrical 
+Engineering</option> 
+                    <option value="arts_humanities">Arts & Humanities</option> 
+                </select> 
+                <p id="courseError" class="error-message"></p> 
+            </div> 
+ 
+            <!-- Terms and Conditions Checkbox --> 
+            <div> 
+                <input type="checkbox" id="terms" class="form-checkbox"> 
+                <label for="terms"> 
+                    I agree to the <a href="#">terms and conditions</a> 
+                </label> 
+                <p id="termsError" class="error-message" style="margin-left: 
+8px;"></p> 
+            </div> 
+ 
+            <!-- Submit Button --> 
+            <div> 
+                <button type="submit" class="submit-button"> 
+                    Submit Admission 
+                </button> 
+            </div> 
+        </form> 
+  
+<!-- Success Message --> 
+        <div id="success-message" class="hidden"> 
+            <p>Form submitted successfully! We'll be in touch soon.</p> 
+        </div> 
+    </div> 
+ 
+    <script src="utils/script.js"></script>
+</body> 
+</html>
